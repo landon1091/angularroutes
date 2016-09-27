@@ -1,0 +1,14 @@
+.Nav {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    background-color: red;
+    border: solid 2px black;
+    border-radius: 7px; 
+}
+#view {
+    display: flex;
+    justify-content: center;
+    background-color: gray;
+    border: solid maroon 3px;
+}
