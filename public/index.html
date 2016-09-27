@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/1.0.0-beta.3/angular-ui-router.min.js"></script>
+    <script src="app.js"></script>
+
+</head>
+
+<body ng-app="AudioApp">
+    <section>
+        <a ui-sref="home">home</a>
+        <a ui-sref="songs">songs</a>
+        <a ui-sref="friends">friends</a>
+    </section>
+    <ui-view></ui-view>
+</body>
+
+</html>
