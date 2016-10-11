@@ -12,3 +12,11 @@
     background-color: gray;
     border: solid maroon 3px;
 }
+#name {
+    text-align: center;
+    color: red;
+}
+#textbox {
+    display: flex;
+    justify-content: flex-end;
+}

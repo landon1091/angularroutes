@@ -11,9 +11,13 @@
 
 <body ng-app="AudioApp">
     <section>
-        <a class="Nav" ui-sref="home">home</a>
-        <a class="Nav" ui-sref="songs">songs</a>
-        <a class="Nav" ui-sref="friends">friends</a>
+        <p id="name" ng-controller="LoginController"> Welcome {{ spaghetti }}</p>
+        <div id="textbox">
+        <input ng-model="spaghetti" id="login" type="text" placeholder="Username">
+        </div>
+        <a class="Nav" ui-sref="home">Home</a>
+        <a class="Nav" ui-sref="songs">Songs</a>
+        <a class="Nav" ui-sref="friends">Friends</a>
     </section>
     <ui-view id="view"></ui-view>
 </body>
